@@ -1,0 +1,45 @@
+
+p {
+ text-align: center;
+ font-size: 13px;
+}
+.centered {
+  display: block;
+  margin: auto auto;
+}
+.button{
+  font-size: 14px;
+}
+#image{
+  padding-top: 198px;
+  padding-bottom: 25px;
+}
+#searchtext{
+  width: 582px;
+  height: 34px;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#buttons{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+#topmenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+#topmenu li {
+  display: inline;
+  padding: 20px 16px;
+}
+#topmenu li a{
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 25px;
+}
