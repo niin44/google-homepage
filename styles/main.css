@@ -2,13 +2,33 @@
 p {
  text-align: center;
  font-size: 13px;
+ font-family: arial;
+}
+a{
+    text-decoration-line: none;
+    font-family: arial;
+}
+p a:visited{
+  color: blue;
+}
+ul {
+  list-style-type: none;
+}
+li a{
+   color: gray;
 }
 .centered {
   display: block;
-  margin: auto auto;
+  margin: 0px auto;
 }
 .button{
   font-size: 14px;
+  padding: 10px;
+  margin: 0px 10px;
+  border-style: none;
+  background-color: rgb(240, 240, 240);
+  color: rgb(20, 20, 20);
+  border-radius: 5px;
 }
 #image{
   padding-top: 198px;
@@ -16,9 +36,11 @@ p {
 }
 #searchtext{
   width: 582px;
-  height: 34px;
+  height: 45px;
   font-size: 16px;
   border-radius: 15px;
+  border-style: outset;
+  border-width: thin;
 }
 #buttons{
   padding-top: 25px;
@@ -26,20 +48,78 @@ p {
   display: flex;
   justify-content: center;
 }
+#searachcontent{
+  overflow: visible;
+}
+
 #topmenu{
-  list-style-type: none;
   margin: 0;
-  padding: 0;
-  float: right;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 #topmenu li {
-  display: inline;
-  padding: 20px 16px;
+  padding: 15px 8px;
 }
 #topmenu li a{
   color: black;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 10px 0px;
+}
+#img-profile{
+  border-radius: 50%;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#languagemenu {
+  margin: 0;
+  padding: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  height: 3%;
+}
+#languagemenu li {
+  color: black;
+  display: inline;
+  padding: 20px 16px;
+}
+#languagemenu li a{
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  padding-top: 25px;
+  padding: 15px;
+  font-size: 15px;
+}
+#bottommenu {
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  background-color: rgb(242, 242, 242);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#bottommenu li {
+  display: inline;
+  padding: 8px 10px;
+}
+#bottommenu a{
+  color: rgb(10,10,10);
+  font-size: 13px;
+}
+#bottommenu #rightside{
+  display: inline;
 }
