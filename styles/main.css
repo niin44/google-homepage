@@ -66,10 +66,8 @@ li a{
 #topmenu li a{
   color: black;
   display: inline;
-  text-align: center;
   text-decoration: none;
   font-size: 13px;
-  padding: 10px 0px;
 }
 #img-profile{
   border-radius: 50%;
